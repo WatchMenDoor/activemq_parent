@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-activemq-producer</module>
+        <module>spring-activemq-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
