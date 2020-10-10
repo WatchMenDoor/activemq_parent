@@ -5,12 +5,12 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.ObjectMessage;
 
+import com.bjsxt.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Component;
 
 import com.bjsxt.pojo.Users;
-import com.bjsxt.service.UserService;
 
 /**
  * 消息服务监听器
@@ -30,6 +30,7 @@ public class MyMessageListener implements MessageListener{
 		Users user=null;
 		try {
 			user = (Users)objMessage.getObject();
+			System.out.println(user);
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:41:44 +0900] "GET /addUser HTTP/1.1" 200 566 http-bio-8080-exec-1 674
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:41:44 +0900] "GET /favicon.ico HTTP/1.1" 404 997 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:42:00 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-5 1538
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:47:29 +0900] "GET /addUser HTTP/1.1" 200 566 http-bio-8080-exec-3 117
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:47:37 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-5 570
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:48:39 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-9 197
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:50:26 +0900] "GET /addUser HTTP/1.1" 200 566 http-bio-8080-exec-1 5
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:50:33 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-4 31
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:51:24 +0900] "GET /addUser HTTP/1.1" 200 566 http-bio-8080-exec-3 91
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:51:32 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-5 563
+0:0:0:0:0:0:0:1 - - [10/Oct/2020:18:56:19 +0900] "POST /user/addUser HTTP/1.1" 200 265 http-bio-8080-exec-7 21
